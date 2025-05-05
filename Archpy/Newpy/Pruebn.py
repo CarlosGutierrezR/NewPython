@@ -1,6 +1,5 @@
-cant_inv=int(input("Escriba escriba la cantidad a invertir: "))
-int_anual=int(input("Escriba el interes anual: "))
-num_años=int(input("Escriba el numero de años: "))
-bruto_inv=((cant_inv*(int_anual/100)))
-neto_inv=(bruto_inv*num_años)
-print("El capital obtenido es: ",neto_inv)
+i=1
+lista=[]
+for i in range (1,11,2):
+	print(i,*lista[::-1])
+	lista.append(i)
